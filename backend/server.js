@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://tangerine-kangaroo-546f42.netlify.app',
+  origin: 'https://digitalexpressindia.com',
   credentials: true
 }));
 app.use(express.json());
